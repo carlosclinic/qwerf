@@ -116,8 +116,8 @@ header nav .nav_logo .logo {
 header nav .nav_logo .logo img {
   display: flex;
 
-  height: 50%;
-
+  height: 40%;
+  margin-right: 0.5em;
   /* background-color: aquamarine; */
 }
 header nav .logo p {
@@ -257,7 +257,7 @@ nav .link a:before {
   cursor: pointer;
   position: absolute;
   right: 10vw;
-  top: 1em;
+  top: 2.5vh;
 
   z-index: 2000;
   /* top: 0.7em; */
@@ -330,13 +330,18 @@ nav .link a:before {
   }
 }
 @media (width < 568px) {
+  header {
+    height: 6em;
+  }
   .home_vid .vid_grid {
     grid-template-columns: repeat(1, 1fr);
-  }  .home_container h1 {
-    font-size: 3.5rem;
+  }
+  .home_container h1 {
+    font-size: 3rem;
     font-weight: 400;
     font-family: var(--header-font);
     color: var(--white);
+    line-height: 90%;
   }
   .home_container p {
     max-width: unset;
@@ -347,4 +352,3 @@ nav .link a:before {
     color: var(--white);
   }
 }
-
