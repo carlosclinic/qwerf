@@ -332,6 +332,19 @@ nav .link a:before {
 @media (width < 568px) {
   .home_vid .vid_grid {
     grid-template-columns: repeat(1, 1fr);
+  }  .home_container h1 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: var(--header-font);
+    color: var(--white);
+  }
+  .home_container p {
+    max-width: unset;
+    font-size: 1rem;
+    padding-left: 0vw;
+    font-weight: 300;
+    text-align: justify;
+    color: var(--white);
   }
 }
 
