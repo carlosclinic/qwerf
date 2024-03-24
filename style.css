@@ -329,3 +329,9 @@ nav .link a:before {
   header nav .nav_links .left {
   }
 }
+@media (width < 568px) {
+  .home_vid .vid_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
